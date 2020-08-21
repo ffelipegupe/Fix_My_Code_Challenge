@@ -13,7 +13,7 @@ if (process.argv.length <= 2) {
     process.exit(1);
 }
 
-var size = process.argv[2];
+var size = parseInt(process.argv[2], 10);
 var i;
 var j;
 
