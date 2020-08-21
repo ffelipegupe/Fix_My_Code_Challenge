@@ -14,6 +14,8 @@ if (process.argv.length <= 2) {
 }
 
 var size = process.argv[2];
+var i;
+var j;
 
 for (i = 0 ; i < size ; i ++) {
     for (j = 0 ; j < size ; j ++) {
