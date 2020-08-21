@@ -13,7 +13,7 @@ if (process.argv.length <= 2) {
     process.exit(1);
 }
 
-size = process.argv[2];
+var size = process.argv[2];
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
